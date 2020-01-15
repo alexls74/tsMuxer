@@ -7,6 +7,10 @@
 #include <memory.h>
 #include <stdlib.h>
 
+#ifndef _APPLE
+#include <cmath>
+#endif
+
 #include "vodCoreException.h"
 #include "vod_common.h"
 
